@@ -1,9 +1,8 @@
 /*  your css code here. If applicable */
 .grid-container{
 	display:flex;
-	justify-content:space-between;
+	flex-wrap:wrap;
 	gap:10px;
-/* 	flex-wrap:wrap; */
 }
 .grid-item{
 	width:200px;
@@ -14,9 +13,9 @@
     border-radius:5px;
 	font-size:40px;
 }
-@media screen and (min-width:1500px){
-	.grid-item{
-		background-color:red;
+@media screen and (max-width:1368px){
+	.grid-container{
+		width:100%;	
 	}
 }
 
