@@ -1,22 +1,18 @@
 /*  your css code here. If applicable */
 .grid-container{
-	display:grid;
-	
-	flex-wrap:wrap;
+	display:flex;	
+	align-items:left;
 	gap:10px;
-}
+     
 .grid-item{
-	width:200px;
-	height:150px;
-	
 	background-color:lightgray;
-	border:none;
+	height:150px;
+	width:200px;
     border-radius:5px;
 	font-size:40px;
 }
-@media screen and (max-width:1368px){
-	.grid-container{
-		width:100%;	
-	}
+@media screen and (max-width:1800px){
+	   .grid-container{
+		   flex-wrap:wrap;
+	   }
 }
-
