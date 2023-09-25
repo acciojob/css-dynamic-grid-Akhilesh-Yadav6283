@@ -1,18 +1,18 @@
 /*  your css code here. If applicable */
 .grid-container{
-	display:flex;	
-	align-items:left;
-	gap:10px;
+	display:grid;
+	grid-template-columns:repeat(auto-fit ,200px);
+	grid-column-gap:5px;
+	grid-row-gap:5px;
+	justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    list-style: none;
      
 .grid-item{
-	background-color:lightgray;
 	height:150px;
-	width:200px;
+	background-color:lightgray;
     border-radius:5px;
 	font-size:40px;
-}
-@media screen and (max-width:1800px){
-	   .grid-container{
-		   flex-wrap:wrap;
-	   }
+	text-align:center;
 }
