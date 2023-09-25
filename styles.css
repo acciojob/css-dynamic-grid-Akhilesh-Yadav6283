@@ -2,16 +2,15 @@
 .grid-container{
 	display:grid;
 	grid-template-columns:repeat(auto-fit ,200px);
-	grid-column-gap:5px;
-	grid-row-gap:5px;
-	justify-content: center;
+	grid-gap:10px;
+/* 	justify-content: center; */
     width: 90%;
     margin: 0 auto;
     list-style: none;
      
 .grid-item{
 	height:150px;
-	background-color:lightgray;
+	background-color:rgb(211, 211, 211);
     border-radius:5px;
 	font-size:40px;
 	text-align:center;
