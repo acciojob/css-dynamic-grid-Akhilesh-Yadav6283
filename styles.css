@@ -3,14 +3,13 @@
 	display:grid;
 	grid-template-columns:repeat(auto-fit ,200px);
 	grid-gap:10px;
-/* 	justify-content: center; */
     width: 90%;
     margin: 0 auto;
     list-style: none;
      
 .grid-item{
 	height:150px;
-	background-color:rgb(211, 211, 211);
+	background-color:gba(0, 0, 0, 0);
     border-radius:5px;
 	font-size:40px;
 	text-align:center;
