@@ -1,17 +1,22 @@
 /*  your css code here. If applicable */
+body{
+	height:800px;
+	width:500px;
+}
 .grid-container{
-    display:flex;
-	flex-wrap:wrap;
-	gap:10px;
+    display:grid;
+	grid-gap:10px 10px;
     list-style: none;
 	
      
 .grid-item{
 	height:150px;
 	width:200px;
-	background-color:lightgray;
+	background-color:rgb(211,211,211);
     border-radius:5px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
 	font-size:40px;
-	text-align:center;
 }
 	
